@@ -24,6 +24,7 @@ length(unique(crimes$Institution.name))
 coordinate <- read.csv("../data/All_Coordinate.csv")
 coordinate <- coordinate[,-1]
 
+
 campus <- unique(crimes$Institution.name)
 campus <- cbind(campus, coordinate)
 
